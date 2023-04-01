@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Hello World with Socket.io</title>
+	</head>
+	<body>
+		<script src="/socket.io/socket.io.js"></script>
+		<script>
+			var socket = io.connect("http://192.168.100.219:3000/");
+			socket.on("message-from-server-to-client", function(msg) {
+				document.getElementById('message').innerHTML = msg;
+			});
+			socket.emit('message-from-client-to-server', 'Hello World!');
+		</script>
+		<p>Socket.io Hello World client started!</p>
+		<p id="message"></p>
+	</body>
+</html>

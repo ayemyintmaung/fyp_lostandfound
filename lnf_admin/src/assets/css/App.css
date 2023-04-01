@@ -1,0 +1,166 @@
+.App {
+    text-align: center;
+}
+
+.App.navbar-brand {
+    padding-left: 20px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.App-footer {
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: block;
+    height: 50px;
+    padding: 10px;
+    background-color: black;
+    cursor: pointer;
+}
+
+.App-Header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    background-color: black;
+}
+
+.App-Logo {
+    position: absolute;
+    left: 0;
+    width: 70px;
+    pointer-events: none;
+}
+
+.App-Nav-Link {
+    color:white;
+    cursor: pointer;
+    font-size: 32px;
+    font-weight: bold;
+}
+.App-Nav-Link-LR{
+	float:left;
+	padding: 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    border-right: 1px solid #333;
+    color: #ddd;
+    font-weight: bold;
+    width: 150px;
+    text-align: center;
+}
+.App-Nav-Link-LR:hover{
+	background: #0ea9f9;
+    color: #fff;
+}
+
+.logo-back.img{
+    position: absolute;
+}
+
+.HOME_CARD1{
+    padding: 5px;
+    background: #f5c876;
+    color: black;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0px 0px 5px 5px #2a2b2c;
+    border: 4px solid #fff;
+    height:180px;
+}
+
+.TABLE{
+    padding: 40px;
+    background: url(../imgs/card-back.jpg);
+    color: black;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0px 0px 5px 5px #2a2b2c;
+    border: 4px solid #fff;
+}
+.TABLE_CARD_USER{
+    padding: 20px;
+    background: #e58787;
+    color: rgb(0, 46, 11);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px #2a2b2c;
+    border: 4px solid #fff;
+}
+
+.TABLE_CARD_LOST_ITEM{
+    padding: 20px;
+    background: #87e5c6;
+    color: rgb(0, 46, 11);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px #2a2b2c;
+    border: 4px solid #fff;
+}
+
+.TABLE_CARD_FOUND_ITEM{
+    padding: 20px;
+    background: #b387e5;
+    color: rgb(0, 46, 11);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px #2a2b2c;
+    border: 4px solid #fff;
+}
+.my-post-button{
+    width: 100%;
+}
+
+.el-upload-dragger {
+    width: 150%;
+}
+
+.el-table__header-wrapper{
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+.my-table-button{
+    width: 100%;
+}
+.my-table-button.item-detail{
+    width: 100%;
+    margin-top: 50px;
+    padding: 20px;
+}
+.el-table__body{
+    font-size: 18px;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.el-row.DETAIL_CARD_ITEM{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 8px;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+.my-card-row{
+    margin:30px;
+}
